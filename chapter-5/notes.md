@@ -46,8 +46,15 @@ In general, we should keep in mind that
 + once the table gets half full, the insertion could fail
 + the table size should be prime
 
+Although the quadratic pribing eliminates primary clustering, elements that hash to the same home position will probe the same alternative cells. This is known as *secondary clustering*.
 
+#### Double Hashing
 
+---
+### Hash Table In STL
+```unordered_set``` and ```unordered_map``` includes hash table implementation. The elements in ```unordered_set``` and the keys in ```unordered_map``` need a hash function and an equality operator==. 
+
+These unordered classes can be used if it is not important for the entries to be viewable in sorted order. 
 
 
 
