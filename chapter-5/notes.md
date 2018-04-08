@@ -53,7 +53,6 @@ Although the quadratic pribing eliminates primary clustering, elements that hash
 ### Hash Table In STL
 ```unordered_set``` and ```unordered_map``` includes hash table implementation. The elements in ```unordered_set``` and the keys in ```unordered_map``` need a hash function and an equality operator==. 
 
-```
 These unordered classes can be used if it is not important for the entries to be viewable in sorted order. 
 
 ### Analyze Hashtable
